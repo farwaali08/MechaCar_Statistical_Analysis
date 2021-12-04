@@ -17,7 +17,7 @@ summary(lm(mpg~vehicle_length + vehicle_weight + spoiler_angle + ground_clearanc
 # Part 2: Suspension Coil Analysis
 
 # Import and read Suspension_Coil.csv file as a dataframe
-coils <- read_csv(file='/Users/farwaali/Documents/R_Analysis/Challenge/Suspension_Coil.csv',show_col_types = FALSE)
+coils <- read.csv(file='/Users/farwaali/Documents/R_Analysis/Challenge/Suspension_Coil.csv')
 head(coils)
 
 # Creates total_summary dataframe 
