@@ -2,6 +2,16 @@
 
 ## OVERVIEW
 
+This project utilizes R to complete a statistical review of production data for an automotive company. The ultimate goal is to be able to provide actionable insights that may help improve the design of a troubled prototype.
+
+The main objectives include the following:
+
+* Identifying the variables that best predict the prototype's fuel economy (mpg)
+* Obtaining summary statistics on the PSI (pounds per square inch) of the suspension coils
+* Determining if manufacturing lots are statistically different from the mean population
+
+A proposal has also been prepared to conduct an additional study that compares the performance of the prototype against vehicles from other manufacturers.
+
 ## TOOLS & RESOURCES
 
 ### DATA
@@ -11,6 +21,7 @@
 
 ### SOFTWARE
 * RStudio 2021.09.1+372 "Ghost Orchid" 
+  * `dplyr` package 
 
 ## Linear Regression to Predict MPG
 
