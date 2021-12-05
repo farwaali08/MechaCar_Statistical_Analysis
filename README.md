@@ -64,7 +64,7 @@ As the p-value (0.0603) is greater than the significance level, there is insuffi
 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/ttest2.png)
 
-The p-value for this test is 1, which aside from being greater than the significance level, indicates that it exactly equals the null hypothesis value. Therefore, the null hypothesis cannot be rejected. This demonstrates that the PSI for Lot 1 is statiscally similar to the population mean.
+The p-value for this test is 1, which aside from being greater than the significance level, indicates that it exactly equals the null hypothesis value. Therefore, the null hypothesis cannot be rejected. This demonstrates that the PSI for Lot 1 is statistically similar to the population mean.
 
 **Lot 2**
 
