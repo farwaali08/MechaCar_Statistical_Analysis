@@ -6,7 +6,7 @@ This project utilizes R to complete a statistical review of production data for 
 
 The main objectives include the following:
 
-* Identifying the variables that best predict the prototype's fuel economy (mpg)
+* Identifying the variables that best predict the prototype's fuel economy (in mpg)
 * Obtaining summary statistics on the PSI (pounds per square inch) of the suspension coils
 * Determining if manufacturing lots are statistically different from the mean population
 
