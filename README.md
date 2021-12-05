@@ -10,7 +10,7 @@ The main objectives include the following:
 * Determining if the manufacturing process is consistent across all production lots
 * Determining if the manufacturing lots are statistically different from the mean population
 
-A proposal has also been prepared to conduct an additional study that compares the performance of the prototype against vehicles from other manufacturers.
+A proposal has also been prepared to conduct an additional study that compares the performance of the prototype against vehicles from other manufacturers, based on current consumer values.
 
 ## TOOLS & RESOURCES
 
