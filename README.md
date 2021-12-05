@@ -93,21 +93,24 @@ In order to remain competitive with other manufacturers, the MechaCar must align
   * Total Purchase Price
   * Cost of Maintenance 
 
-**Null and Alternate Hypothesis**
+**Null Hypothesis**
 
-* H<sub>0</sub>:  
-* H<sub>a</sub>: 
+* H<sub>0</sub>: there is no statistical difference in the performance metrics between the MechaCar prototype and comparable competitor vehicles.
 
 **Statistical Test**
 
-
+* ANOVA 
+  * This test can help determine whether the means from multiple different samples are significantly similar or different. For this analysis, the comparison would be between the means for each metric, across the different manufacturers.
 
 **Required Data**
 
 In order to perform this analysis, the following datasets are required:
 
-* Vehicle Safety Ratings
-* Vehicle Cost (Purchase Price)
-* Vehicle Maintenance Costs
+* Vehicle Safety Ratings: [IIHS-HLDI API](https://api.iihs.org)
+* Vehicle Cost (Purchase Price) [VEHICLE API](https://developer.edmunds.com/api-documentation/vehicle/)
+* Vehicle Maintenance Costs [CarsXE API](https://api.carsxe.com/vehicle-ownership-cost)
 
-The data can then be merged into a single data set (where each metric is a column,) which can be used for further analysis.
+The links above lead to APIs that may be able to provide the required information. The vehicles selected will be from the same vehicle class.
+
+Once compiled, the data can then be parsed and merged into a single data set, where each metric is a column. This will then be used for the statistical analysis.
+
