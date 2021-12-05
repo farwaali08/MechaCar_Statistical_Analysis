@@ -7,8 +7,8 @@ This project utilizes R to complete a statistical review of production data for 
 The main objectives include the following:
 
 * Identifying the variables that best predict the prototype's fuel economy (in mpg)
-* Obtaining summary statistics on the PSI (pounds per square inch) of the suspension coils
-* Determining if manufacturing lots are statistically different from the mean population
+* Determining if the manufacturing process is consistent across all production lots
+* Determining if the manufacturing lots are statistically different from the mean population
 
 A proposal has also been prepared to conduct an additional study that compares the performance of the prototype against vehicles from other manufacturers.
 
@@ -35,7 +35,13 @@ A multiple regression analysis was used to predict which of the below variables 
 
 ## Summary Statistics on Suspension Coils
 
+To determine if the manufacturing process is consistent across all production lots, the weight capacities of multiple suspension coils were tested, and the summary statistics are provided below.  The first table (A) represents data across all lots, and second table (B) summarizes the data per lot.
+
+A) **All Manufacturing Lots**
+
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/SC1.png)
+
+B) **Data per Lot** 
 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/SC2.png)
 
