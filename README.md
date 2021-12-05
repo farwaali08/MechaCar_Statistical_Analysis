@@ -29,7 +29,8 @@ A multiple regression analysis was used to predict which of the below variables 
 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/Linear%20Regression.png)
 
-* **Vehicle Length** and **Ground Clearance** are the most statistically significant, and are the most likely to contribute a non-random amount of variance to the dataset. The p-values for these variables are 2.6x10^-12 and 5.21x10<sup>-8</sup>, respectively
+* **Vehicle Length** and **Ground Clearance**, with p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively, are the most statistically significant, and are the most likely to contribute a non-random amount of variance to the dataset. The intercept is also statistically significant, however that is not meaningful to this analysis.
+* The slope of the linear model not considered to be zero, as the p-value of the linear model (5.35X10<sup>-11</sup>) is smaller than the significance level, which provides sufficient statistical evidence to reject the null hypothesis (H<sub>0</sub>)
 
 ## Summary Statistics on Suspension Coils
 
