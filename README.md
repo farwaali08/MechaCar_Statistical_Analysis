@@ -70,9 +70,12 @@ The p-value for this test is 1, which aside from being greater than the signific
 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/ttest3.png)
 
+As the p-value (0.6072) is greater than the significance level, there is insufficient evidence to reject the null hypothesis. This suggests that the PSI for Lot 2 is statiscally similar to the population mean.
 
 **Lot 3**
 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/ttest4.png)
+
+This was the only sample where p <0.05, which deems it as statistically different from the population mean, as there is sufficient evidence to reject the null hypothesis. Further evaluation is recommended for Lot 3, as it was also identified as being problematic in the previous analysis.
 
 ## Study Design: MechaCar vs Competition
