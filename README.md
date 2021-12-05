@@ -25,7 +25,11 @@ A proposal has also been prepared to conduct an additional study that compares t
 
 ## Linear Regression to Predict MPG
 
+A multiple regression analysis was used to predict which of the below variables are most likely to contribute a non-random amount of variance to the fuel economy (mpg). The `Pr(>|t|)` value represents the probability for each variable, and is accompanied by a significance code that indicates the significance level.
+
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/Linear%20Regression.png)
+
+* **Vehicle Length** and **Ground Clearance** are the most statistically significant, and are the most likely to contribute a non-random amount of variance to the dataset. The p-values for these variables are 2.6x10^-12 and 5.21x10^-8, respectively
 
 ## Summary Statistics on Suspension Coils
 
