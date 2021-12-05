@@ -47,7 +47,7 @@ B) **Data per Lot**
 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/SC2.png)
 
-The design specifications dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Although the data for the total population indicates that this criteria is being met (var= 62.29), when analyzed individually, it is evident in the "Data per Lot" summary that Lot 3 does not meet this requirement (var= 170.29). Lots 1 and 2 meet the design specifications in the individual analyses: Lot 1 has a lower variance value (0.98) than the total population, whereas Lot 2 has a more comparable value (7.47).
+The design specifications dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Although the data for the total population indicates that this criteria is being met (var= 62.29), when analyzed individually, it is evident in the "Data per Lot" summary that Lot 3 does not meet this requirement (var= 170.29). Lots 1 and 2 meet the design specifications in the individual analyses: Lot 1 has a lower variance value (var= 0.98) compared to the total population, whereas Lot 2 has a more comparable value (var= 7.47).
 
 ## T-Tests on Suspension Coils
 
