@@ -57,7 +57,7 @@ A series of t-tests were completed to determine if the manufacturing lots are st
 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/ttest1.png)
 
-As the p-value (0.069) is greater than the significance level, there is insufficient evidence to reject the null hypothesis. This suggests that the PSI across all manufacturing lots is statiscally similar to the population mean.
+As the p-value (0.069) is greater than the significance level, there is insufficient evidence to reject the null hypothesis. This suggests that the PSI across all manufacturing lots is statistically similar to the population mean.
 
 
 **Lot 1**
