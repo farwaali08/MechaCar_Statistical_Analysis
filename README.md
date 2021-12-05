@@ -35,7 +35,7 @@ A multiple regression analysis was used to predict which of the below variables 
 
 ## Summary Statistics on Suspension Coils
 
-To determine if the manufacturing process is consistent across all production lots, the weight capacities of multiple suspension coils were tested, and the summary statistics are provided below.  The first table (A) represents data across all lots, and second table (B) summarizes the data per lot.
+To determine if the manufacturing process is consistent across all production lots, the weight capacities of multiple suspension coils were tested, and the summary statistics are provided below. The first table (A) represents data across all lots, and the second table (B) summarizes the data per lot.
 
 A) **All Manufacturing Lots**
 
@@ -44,6 +44,8 @@ A) **All Manufacturing Lots**
 B) **Data per Lot** 
 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/SC2.png)
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Although the data for the total population indicates that this design specification is being met (var= 62.29), it is evident in the "Data per Lot" summary that Lot 3 is not compliant (var= 170.29).
 
 ## T-Tests on Suspension Coils
 
