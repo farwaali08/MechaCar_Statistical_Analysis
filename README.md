@@ -30,7 +30,7 @@ A multiple regression analysis was used to predict which of the below variables 
 ![alt_text](https://github.com/farwaali08/MechaCar_Statistical_Analysis/blob/35c372561abdb97beebf05f975d1e74c1df4215e/Resources/Images/Linear%20Regression.png)
 
 * `Vehicle Length` and `Ground Clearance`, with p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively, are the most statistically significant, and are the most likely to contribute a non-random amount of variance to the dataset. The intercept is also statistically significant, however that is not meaningful to this analysis.
-* **The slope of the linear model not considered to be zero.** The p-value of the linear model (5.35X10<sup>-11</sup>) is much smaller than the value for an "extreme" level of significance, which provides sufficient statistical evidence to reject the null hypothesis (H<sub>0</sub>).
+* **The slope of the linear model is not considered to be zero.** The p-value of the linear model (5.35X10<sup>-11</sup>) is much smaller than the value for an "extreme" level of significance, which provides sufficient statistical evidence to reject the null hypothesis (H<sub>0</sub>).
 * **This model is fairly effective at predicting fuel economy for prototypees.** The r-squared value (R<sup>2</sup>= 0.7149) indicates that roughly 71.5% of the variation in the mpg dataset can be explained by the input variables. Although it can be improved, it is fairly efficient.
 
 ## Summary Statistics on Suspension Coils
