@@ -7,7 +7,7 @@ library(dplyr)
 mechdata <- read.csv(file = '/Users/farwaali/Documents/R_Analysis/Challenge/MechaCar_mpg.csv',check.names = F, stringsAsFactors = F)
 head(mechdata)
 
-# Perform linear regression using lm() function
+# Perform linear regression 
 lm(mpg~vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mechdata)
 
 # Determine p-value and the r-squared value for linear regression model
@@ -20,11 +20,11 @@ summary(lm(mpg~vehicle_length + vehicle_weight + spoiler_angle + ground_clearanc
 coils <- read.csv(file='/Users/farwaali/Documents/R_Analysis/Challenge/Suspension_Coil.csv')
 head(coils)
 
-# Creates total_summary dataframe 
+# Create total_summary dataframe 
 total_summary <-coils%>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
 head(total_summary)
 
-# Creates lot_summary dataframe 
+# Create lot_summary dataframe 
 lot_summary <-coils%>% group_by(Manufacturing_Lot)%>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups = 'keep')
 head(lot_summary)
 
