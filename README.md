@@ -79,3 +79,35 @@ As the p-value (0.6072) is greater than the significance level, there is insuffi
 This was the only sample where p <0.05, which deems it as statistically different from the population mean, as there is sufficient evidence to reject the null hypothesis. Further evaluation is recommended for Lot 3, as it was also identified as being problematic in the previous analysis.
 
 ## Study Design: MechaCar vs Competition
+
+[Deloitte](https://www2.deloitte.com/us/en/pages/manufacturing/articles/automotive-trends-millennials-consumer-study.html) published their 2021 Global Automotive Consumer Study earlier this year, which provides information on consumer trends and opinions regarding the automotive sector. The data includes more than 24,000 participants from 23 countries, and provides valuable insights on what metrics are most important to consumers today.
+
+When considering buying a new car, most consumers declared **Safety** and **Cost** as key factors in their decision. 
+
+In order to remain competitive with other manufacturers, the MechaCar must align with these consumer values. A statistical study that can quantify these metrics is recommended.
+
+**Test Metrics**
+
+* Safety Rating
+* Cost
+  * Total Purchase Price
+  * Cost of Maintenance 
+
+**Null and Alternate Hypothesis**
+
+* H<sub>0</sub>:  
+* H<sub>a</sub>: 
+
+**Statistical Test**
+
+
+
+**Required Data**
+
+In order to perform this analysis, the following datasets are required:
+
+* Vehicle Safety Ratings
+* Vehicle Cost (Purchase Price)
+* Vehicle Maintenance Costs
+
+The data can then be merged into a single data set (where each metric is a column,) which can be used for further analysis.
